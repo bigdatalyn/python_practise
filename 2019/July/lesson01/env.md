@@ -100,3 +100,38 @@ git push
 
 ----
 
+
+
+''' shell
+
+查看远程仓库
+
+  git remote -v
+
+从远程获取最新版本到本地
+
+  git fetch origin master
+
+比较本地仓库和远程仓库
+
+  git log -p master.. origin/master
+
+把远程下载下来的代码合并到本地，远程和本地的合并
+
+  git merge origin/master
+
+从远程origin仓库的master分支下载到本地并建立一个分支temp
+   
+   git fetch origin master:temp
+
+   git diff temp
+
+   git merge temp
+
+   git branch -d temp
+   git branch -D temp
+
+
+'''
+
+
