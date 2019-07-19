@@ -1,0 +1,29 @@
+[python@localhost lesson01]$ cat print_01.py
+#enconding: utf-8
+
+print('hello world')
+
+print(2 * 3.1415926 * 10)
+print(3.1415926 * 10 * 10)
+print('100 + 2 =', 100 + 2)
+print('1 - 5 =', 1 - 5)
+print('5 * 6 =', 5 * 6)
+print('9 / 4 =', 9 / 4)
+[python@localhost lesson01]$ python3 print_01.py
+hello world
+62.831852
+314.15926
+100 + 2 = 102
+1 - 5 = -4
+5 * 6 = 30
+9 / 4 = 2.25
+[python@localhost lesson01]$ python print_01.py
+hello world
+62.831852
+314.15926
+('100 + 2 =', 102)
+('1 - 5 =', -4)
+('5 * 6 =', 30)
+('9 / 4 =', 2)
+[python@localhost lesson01]$
+
