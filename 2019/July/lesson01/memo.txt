@@ -27,3 +27,44 @@ hello world
 ('9 / 4 =', 2)
 [python@localhost lesson01]$
 
+
+>>> 'abc'+'def'
+'abcdef'
+>>> 'abc'+123
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: must be str, not int
+>>> 'abc'+'123'
+'abc123'
+>>> 123 + 'abc'
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+>>> 123 + 123
+246
+>>>
+
+>>> 'abc' * 'abc'
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: can't multiply sequence by non-int of type 'str'
+>>> 'abc' * 2.2
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: can't multiply sequence by non-int of type 'float'
+>>> 2 * 'abc'
+'abcabc'
+>>> 'abc' * 'abc'
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: can't multiply sequence by non-int of type 'str'
+>>> 'abc' - 1
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unsupported operand type(s) for -: 'str' and 'int'
+>>> 1/0
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ZeroDivisionError: division by zero
+>>>
+
