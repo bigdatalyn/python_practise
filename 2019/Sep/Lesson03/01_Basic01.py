@@ -28,3 +28,4 @@ while True:
         print('Wrong! You guess number is smaller than ' + str(g))
     if count >= 5:
         break
+    
